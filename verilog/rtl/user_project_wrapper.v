@@ -93,17 +93,17 @@ fullldom LDO_6 (
 fullldom LDO_8 (
     .vss(vssa1),
     .vdd(vdda1),
-    .biasldo(analog_io[10]),
-    .out(analog_io[11]),
-    .biasbgr(analog_io[12]),
+    .biasldo(analog_io[12]),
+    .out(analog_io[10]),
+    .biasbgr(analog_io[11]),
     .trim({vssa1, vssa1, vssa1, vssa1, vssa1, vssa1, vssa1, vdda1, vssa1, vssa1, vssa1, vssa1, vssa1, vssa1, vssa1, vssa1})
 );
 fullldom LDO_10 (
     .vss(vssa1),
     .vdd(vdda1),
-    .biasldo(analog_io[13]),
-    .out(analog_io[14]),
-    .biasbgr(analog_io[15]),
+    .biasldo(analog_io[15]),
+    .out(analog_io[13]),
+    .biasbgr(analog_io[14]),
     .trim({vssa1, vssa1, vssa1, vssa1, vssa1, vdda1, vssa1, vssa1, vssa1, vssa1, vssa1, vssa1, vssa1, vssa1, vssa1, vssa1})
 );
 
